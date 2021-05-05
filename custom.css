@@ -136,6 +136,7 @@ footer p{
     }
     .center--img__block{
         padding: 40px 0 60px;
+        display: block;
     }
     footer{
         padding-bottom: 20px;
