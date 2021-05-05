@@ -133,9 +133,6 @@ footer p{
     #countdown ul li span{
         font-size: 16px;
     }
-    #countdown ul li{
-        font-size: 14px;
-    }
     .count--timer__row{
         padding: 15px 0 30px;
     }
