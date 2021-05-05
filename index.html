@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant Vegan Friendly Mugcake</title>
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="coming--soon__row">
+            <div class="container">
+                <span>Our awesome website is</span>
+                <h1>Coming Soon!</h1>
+            </div>
+        </section>
+        <section class="count--timer__row">
+            <div class="container">
+               <div id="countdown">
+                    <ul>
+                      <li><span id="days"></span>days</li>
+                      <li><span id="hours"></span>Hours</li>
+                      <li><span id="minutes"></span>Minutes</li>
+                      <li><span id="seconds"></span>Seconds</li>
+                    </ul>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="center--img__block"> <img src="img/Ulf_car.png" alt="" /> </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="f--social__icon">
+                <ul>
+                    <li><a href="#"><img src="img/facebook.svg" alt=""></a></li>
+                    <li><a href="http://instagram.com/Mad_Ulf"><img src="img/insta.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="f--copyright__block">
+                <p>©2021 Ulf</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let birthday = "Jun 30, 2021 00:00:00",
+      countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+        //seconds
+      }, 0)
+  }());
+</script>
+</html>
