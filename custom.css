@@ -114,6 +114,14 @@ footer{
 footer p{
     font-size: 14px;
 }
+@media only screen and (min-width: 1580px){
+    header{
+        padding: 0px 0 40px;
+    }
+    .coming--soon__row{
+        padding-bottom: 60px;
+    }
+}
 @media only screen and (max-width: 767px){
     header {
         text-align: center;
