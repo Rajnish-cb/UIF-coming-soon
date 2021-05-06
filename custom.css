@@ -125,6 +125,9 @@ footer p{
         width: 480px;
     }
 }
+@media only screen and (max-width: 1440px){
+
+}
 @media only screen and (max-width: 1080px){
     header{
         padding: 0px 0 50px;
@@ -133,7 +136,7 @@ footer p{
         margin-top: 0;
     }
     .coming--soon__row{
-        padding-bottom: 80px;
+        padding-bottom: 60px;
     }
     .center--img__block{
         padding: 45px 0 60px;
@@ -185,7 +188,7 @@ footer p{
         padding-bottom: 50px;
     }
     .count--timer__row {
-        padding: 10px 0 20px;
+        padding: 5px 0 15px;
     }
     .center--img__block{
         padding: 20px 15px 50px;
@@ -230,7 +233,7 @@ footer p{
         padding-bottom: 40px;
     }
     .center--img__block {
-        padding:20px 15px 30px;
+        padding:15px 15px 25px;
     }
     .f--social__icon{
         padding-bottom: 0;
