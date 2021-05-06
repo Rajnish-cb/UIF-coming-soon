@@ -55,7 +55,7 @@ section {
 .count--timer__row{
     background: #FFFFE1;
     text-align: center;
-    padding: 10px 0 20px;
+    padding: 5px 0 20px;
 }
 #countdown {
     display: flex;
