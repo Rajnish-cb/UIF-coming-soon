@@ -43,7 +43,7 @@ section {
 }
 .coming--soon__row {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 .coming--soon__row h1 {
     font-size: 62px;
@@ -114,12 +114,37 @@ footer{
 footer p{
     font-size: 14px;
 }
-@media only screen and (min-width: 1580px){
+@media only screen and (min-width: 1520px){
     header{
         padding: 0px 0 40px;
     }
     .coming--soon__row{
         padding-bottom: 60px;
+    }
+    .center--img__block img{
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    header{
+        padding: 0px 0 50px;
+    }
+    header img {
+        margin-top: 0;
+    }
+    .coming--soon__row{
+        padding-bottom: 80px;
+    }
+    .center--img__block{
+        padding: 45px 0 60px;
+    }
+    .center--img__block img{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 991px){
+    .center--img__block img{
+        width: 580px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -154,5 +179,67 @@ footer p{
     }
     footer{
         padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 568px){
+    header{
+        padding-bottom: 30px;
+    }
+    .coming--soon__row {
+        padding-bottom: 50px;
+    }
+    .count--timer__row {
+        padding: 10px 0 20px;
+    }
+    .center--img__block{
+        padding: 20px 15px 50px;
+    }
+    header img {
+        margin-top: -15px;
+    }
+    footer {
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    header img{
+        max-width: 160px;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 370px){
+    header {
+        padding-bottom: 20px;
+    }
+    header img {
+        max-width: 160px;
+    }
+    .coming--soon__row span {
+        font-size: 18px;
+    }
+    .coming--soon__row h1 {
+        font-size: 42px;
+        line-height: 28px;
+    }
+    #countdown ul li{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    #countdown ul li span{
+        font-size: 12px;
+    }
+    .coming--soon__row {
+        padding-bottom: 40px;
+    }
+    .center--img__block {
+        padding:20px 15px 30px;
+    }
+    .f--social__icon{
+        padding-bottom: 0;
+    }
+    footer p {
+        font-size: 12px;
     }
 }
