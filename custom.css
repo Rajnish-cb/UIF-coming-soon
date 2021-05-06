@@ -137,10 +137,6 @@ footer p{
     }
     .center--img__block{
         padding: 45px 0 60px;
-    }
-    .center--img__block img{
-        width: auto;
-    }
 }
 @media only screen and (max-width: 991px){
     .center--img__block img{
