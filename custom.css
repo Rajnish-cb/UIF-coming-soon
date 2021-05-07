@@ -129,11 +129,14 @@ footer p{
     header{
         padding: 0px 0 15px;
     }
+    header img {
+        margin-top: -25px;
+    }
     .coming--soon__row{
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
     .center--img__block{
-        padding: 25px 0 35px;
+        padding: 20px 0 30px;
     }
     footer{
         padding-bottom: 0;
