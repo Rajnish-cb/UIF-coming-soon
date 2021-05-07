@@ -125,8 +125,19 @@ footer p{
         width: 480px;
     }
 }
-@media only screen and (max-width: 1440px){
-
+@media only screen and (max-width: 1480px){
+    header{
+        padding: 0px 0 15px;
+    }
+    .coming--soon__row{
+        padding-bottom: 50px;
+    }
+    .center--img__block{
+        padding: 25px 0 35px;
+    }
+    footer{
+        padding-bottom: 0;
+    }
 }
 @media only screen and (max-width: 1080px){
     header{
@@ -165,7 +176,7 @@ footer p{
         font-size: 42px;
         line-height: 52px;
         margin-right: 20px;
-    }c
+    }
     #countdown ul li span{
         font-size: 14px;
     }
