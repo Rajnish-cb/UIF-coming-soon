@@ -256,3 +256,9 @@ footer p{
         font-size: 12px;
     }
 }
+
+@media screen and ( min-height: 920px ) {
+    .center--img__block img{
+        width:auto;
+    }
+ }
