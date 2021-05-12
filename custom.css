@@ -115,7 +115,7 @@ footer p{
     font-size: 14px;
 }
 /* Large screens ----------- */
-@media only screen and (min-height:860px){
+@media only screen and (max-height:860px){
     body header {
         padding: 0px 0 40px;
     }
